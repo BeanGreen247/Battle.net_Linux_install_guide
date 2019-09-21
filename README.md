@@ -131,8 +131,8 @@ Download https://github.com/doitsujin/dxvk/releases/download/v1.4/dxvk-1.4.tar.g
 
 Extract dxvk-1.3.tar.gz and copy its contents
 ```
-sudo cp -r dxvk-1.3/x64/* /mnt/84C2FF4EC2FF42CA/classic-wow-wine-prefix/drive_c/windows/system32/
-sudo cp -r dxvk-1.3/x32/* /mnt/84C2FF4EC2FF42CA/classic-wow-wine-prefix/drive_c/windows/syswow64/
+sudo cp -r dxvk-1.3/x64/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/windows/system32/
+sudo cp -r dxvk-1.3/x32/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/windows/syswow64/
 ```
 Open winecfg
 ```
