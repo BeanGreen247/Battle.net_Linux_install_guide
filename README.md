@@ -185,6 +185,7 @@ Create a custom terminal command for killing Battlenet Launcher!
 cat > battlenetkill << "EOF"
 #!/bin/sh
 sudo WINEPREFIX=/mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/ WINEARCH=win64 wineserver -k
+sudo killall -9 /opt/wine-staging/bin/*
 EOF
 ```
 Make the commands executable and make them accesable from the terminal
