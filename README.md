@@ -119,14 +119,14 @@ Download Battlenet Launcher
 
 https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP
 
-Install dxvk 1.4.2
+Install dxvk 1.5.3
 
-Download https://github.com/doitsujin/dxvk/releases/download/v1.4.2/dxvk-1.4.2.tar.gz
+Download https://github.com/doitsujin/dxvk/releases/download/v1.5.3/dxvk-1.5.3.tar.gz
 
-Extract dxvk-1.4.2.tar.gz and copy its contents
+Extract dxvk-1.5.3.tar.gz and copy its contents
 ```
-sudo cp -r dxvk-1.4.2/x64/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/windows/system32/
-sudo cp -r dxvk-1.4.2/x32/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/windows/system/
+sudo cp -r dxvk-1.5.3/x64/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/windows/system32/
+sudo cp -r dxvk-1.5.3/x32/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/windows/system/
 ```
 Open winecfg
 ```
