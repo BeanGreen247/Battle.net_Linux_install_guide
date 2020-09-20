@@ -149,7 +149,7 @@ sudo cp -r dxvk-1.7.1/x32/* /mnt/84C2FF4EC2FF42CA/battlenet-wine-prefix/drive_c/
 ```
 Open winecfg
 ```
-sudo WINEPREFIX=/home/usernamehere/Games/battlenet-wine-prefix/ WINEARCH=win32 winecfg
+sudo WINEPREFIX=/home/usernamehere/Games/battlenet-wine-prefix/ WINEARCH=win64 winecfg
 - Set Windows version to Windows 7 if not done already
 - Go to libraries and add
 >>d3d10
