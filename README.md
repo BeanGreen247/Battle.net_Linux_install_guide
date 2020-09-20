@@ -138,24 +138,27 @@ Download Battlenet Launcher
 
 https://www.battle.net/download/getInstallerForGame?os=win&locale=enUS&version=LIVE&gameProgram=BATTLENET_APP
 
-Install dxvk 1.5.3
+Install dxvk 1.7.1
 
-Download https://github.com/doitsujin/dxvk/releases/download/v1.5.3/dxvk-1.5.3.tar.gz
+Download https://github.com/doitsujin/dxvk/releases/download/v1.7.1/dxvk-1.7.1.tar.gz
 
-Extract dxvk-1.5.3.tar.gz and copy its contents
+Extract dxvk-1.7.1.tar.gz and copy its contents
 ```
-sudo cp -r dxvk-1.5.3/x64/* /home/usernamehere/Games/battlenet-wine-prefix/drive_c/windows/system32/
-sudo cp -r dxvk-1.5.3/x32/* /home/usernamehere/Games/battlenet-wine-prefix/drive_c/windows/system/
+sudo cp -r dxvk-1.7.1/x64/* /mnt/84C2FF4EC2FF42CA/osu-wine-prefix/drive_c/windows/system32/
+sudo cp -r dxvk-1.7.1/x32/* /mnt/84C2FF4EC2FF42CA/osu-wine-prefix/drive_c/windows/system/
 ```
 Open winecfg
 ```
-sudo WINEPREFIX=/home/usernamehere/Games/battlenet-wine-prefix/ WINEARCH=win64 winecfg
+sudo WINEPREFIX=/home/usernamehere/Games/osu-wine-prefix/ WINEARCH=win32 winecfg
 - Set Windows version to Windows 7 if not done already
 - Go to libraries and add
 >>d3d10
 >>d3d10_1
 >>d3d10core
 >>d3d11
+>>d3d12
+>>d3d8
+>>d3d9
 >>dxgi
 - Set them to native and click apply
 - Next go to graphics tick "Allow the window manager to control the windows"
